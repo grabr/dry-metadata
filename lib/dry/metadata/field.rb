@@ -1,5 +1,3 @@
-require 'inflecto'
-
 module Dry
   module Metadata
     # metadata about a dry-validation key:value pair and a dry-struct field

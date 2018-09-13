@@ -21,7 +21,7 @@ module Dry
       end
 
       class Array < Struct
-        attribute :array, Types::Strict::Array.member(Types::Strict::String)
+        attribute :array, Types::Strict::Array.of(Types::Strict::String)
       end
     end
 
