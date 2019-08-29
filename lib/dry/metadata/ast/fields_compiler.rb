@@ -100,7 +100,7 @@ module Dry
         end
 
         def visit_set(_rule_ast, _field)
-          raise 'missing implementation'
+          visit_schema(_rule_ast, _field)
         end
 
         def mark_required_once!(field, is_required)
